@@ -4,16 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>charting</title>
-    <link href="styling.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Countries with the
+      most coronavirus
+      <button onclick="run('yes')">With China</button>
+      <button onclick="run()">No China</button>
+    </p>
     <canvas
       id="canvas"
       width="640"
-      height="480"
-      style="border: 1px solid black;"
-    ></canvas>
+      height="500"
+      style="border: 1px solid black;"></canvas>
     <script src="app.js"></script>
   </body>
 </html>
